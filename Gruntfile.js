@@ -9,11 +9,16 @@ module.exports = function (grunt) {
         init: true,
 
         jitGrunt: {
-            customTasksDir: 'grunt/tasks'
+            customTasksDir: 'grunt/tasks',
+            staticMappings: {
+                default: 'grunt/tasks/default.js'
+            }
+
 
         }
     });
 
     grunt.registerTask('default', ['babel']);
+    grunt.registerTask('testStack', ['browserify']);
 
 };
