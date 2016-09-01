@@ -5,7 +5,7 @@
 Project uses following grunt stack
 
  - [oad-grunt-configs](https://github.com/creynders/load-grunt-configs)
- - [it-gruntj(https://www.npmjs.com/package/jit-grunt)
+ - [jit-grunt](https://www.npmjs.com/package/jit-grunt)
  - [browserify](https://github.com/jmreidy/grunt-browserify)
  - [babelify](https://github.com/babel/babelify)
  - [livereload](https://github.com/gruntjs/grunt-contrib-livereload)
