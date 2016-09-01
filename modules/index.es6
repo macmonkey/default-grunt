@@ -2,10 +2,10 @@
  * Created by jens.heidl on 31.08.2016.
  */
 'use strict';
-import "babel-polyfill";
+//import "babel-polyfill";
 
 import {SomeClass} from './SomeClass.es6';
-import {SomeClassChild} from './SomeClassChild.es6';
+import {SomeClassChild} from './SomeClassChild.js';
 import {Documented} from './SomeDocTest.js';
 
 /*** blaaa ***/

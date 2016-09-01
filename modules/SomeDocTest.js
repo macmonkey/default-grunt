@@ -8,7 +8,8 @@
 export class Documented {
     /**
      * Create a point.
-     * @param {number} options - some Options.
+     * @name sdfsdf
+     * @param {options} options - some Options Object.
      */
 
 

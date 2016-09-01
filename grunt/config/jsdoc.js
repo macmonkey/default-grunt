@@ -3,9 +3,10 @@
  */
 module.exports = {
     dist: {
-        src: ['modules/**/*.js', 'Readme.md'],
+        //src: ['modules/SomeDocTest.js'],
         options: {
-            destination: 'documentation'
+            configure: 'jsdocConfiguration.json'
+            //destination: 'documentation'
         }
     }
 };
