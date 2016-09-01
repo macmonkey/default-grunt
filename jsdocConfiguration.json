@@ -2,11 +2,7 @@
   "tags": {
     "allowUnknownTags": true
   },
-  "source": {
-    "include": ["./modules"],
 
-    "excludePattern": "docs"
-  },
   "plugins": [],
   "templates": {
     "cleverLinks": false,

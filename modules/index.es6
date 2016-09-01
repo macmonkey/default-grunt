@@ -2,13 +2,12 @@
  * Created by jens.heidl on 31.08.2016.
  */
 'use strict';
-//import "babel-polyfill";
+import "babel-polyfill";
 
-import {SomeClass} from './SomeClass.es6';
+import {SomeClass} from './SomeClass.js';
 import {SomeClassChild} from './SomeClassChild.js';
 import {Documented} from './SomeDocTest.js';
 
-/*** blaaa ***/
 
 //From Lib
 //var $ = require('./../libs/jquery.min');

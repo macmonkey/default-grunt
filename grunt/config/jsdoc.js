@@ -3,7 +3,7 @@
  */
 module.exports = {
     dist: {
-        //src: ['modules/SomeDocTest.js'],
+        src: ['modules/**/*'],
         options: {
             configure: 'jsdocConfiguration.json'
             //destination: 'documentation'

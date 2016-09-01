@@ -10,7 +10,9 @@ const _name = Symbol('name');
 
 
 /**
- * Class representing SomeClass.
+ * Class representing SomeClass
+ * @author Jens Heidl
+ * @extends SomeClass
  */
 export class SomeClass {
     /**

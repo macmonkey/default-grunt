@@ -4,15 +4,16 @@
 'use strict';
 
 
-/** Class representing a -----. */
+/**
+ * Class representing SomeClassChild.
+ * @author Jens Heidl
+ * @extends SomeClass
+ */
 export class Documented {
     /**
-     * Create a point.
-     * @name sdfsdf
-     * @param {options} options - some Options Object.
+     * Create a SomeClassChild.
+     * @param {options.name} options  - Some options like name
      */
-
-
     constructor(options) {
         console.log('Documented')
     }

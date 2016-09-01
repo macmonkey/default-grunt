@@ -2,13 +2,12 @@
  * Created by jens.heidl on 31.08.2016.
  */
 'use strict';
-import {SomeClass} from './SomeClass.es6'
+import {SomeClass} from './SomeClass.js'
 
 
 /**
  * Class representing SomeClassChild.
  * @author Jens Heidl
- * @name asdasdas
  * @extends SomeClass
  */
 export class SomeClassChild extends SomeClass {
