@@ -22,11 +22,11 @@ console.log(test.name);
 console.log('------asd------------', testSymbol);
 
 var child = new SomeClassChild({name: 'little Jow'});
-console.log(child.name);
+console.log('child', child.name);
 
-debugger;
 //check Symbol plugin
 console.log('typeof Symbol', typeof testSymbol);
+
 
 //$(function () {
 //    console.log('onDocument Ready');

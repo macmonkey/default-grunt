@@ -101,9 +101,8 @@ console.log(test.name);
 console.log('------asd------------', testSymbol);
 
 var child = new _SomeClassChild.SomeClassChild({ name: 'little Jow' });
-console.log(child.name);
+console.log('child', child.name);
 
-debugger;
 //check Symbol plugin
 console.log('typeof Symbol', typeof testSymbol === 'undefined' ? 'undefined' : _typeof(testSymbol));
 
