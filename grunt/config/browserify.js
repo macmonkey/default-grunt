@@ -3,7 +3,7 @@ module.exports = {
         options: {
             browserifyOptions: {
                 //debug: true
-                extensions: ['es6']
+                extensions: ['es6.js']
             },
             transform: [
                 ["babelify",
@@ -19,7 +19,7 @@ module.exports = {
             //plugins: ["transform-es2015-typeof-symbol"]
         },
         files: {
-            "./dist/module.js": ["./modules/index.es6"]
+            "./dist/module.js": ["./modules/index.es6.js"]
         }
     }
 };

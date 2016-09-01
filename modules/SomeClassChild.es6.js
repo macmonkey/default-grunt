@@ -2,7 +2,7 @@
  * Created by jens.heidl on 31.08.2016.
  */
 'use strict';
-import {SomeClass} from './SomeClass.js'
+import {SomeClass} from './SomeClass.es6.js'
 
 
 /**

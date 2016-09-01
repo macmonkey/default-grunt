@@ -62,7 +62,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.SomeClassChild = undefined;
 
-var _SomeClass2 = require('./SomeClass.js');
+var _SomeClassEs = require('./SomeClass.es6.js');
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
@@ -90,9 +90,9 @@ var SomeClassChild = exports.SomeClassChild = function (_SomeClass) {
   }
 
   return SomeClassChild;
-}(_SomeClass2.SomeClass);
+}(_SomeClassEs.SomeClass);
 
-},{"./SomeClass.js":1}],3:[function(require,module,exports){
+},{"./SomeClass.es6.js":1}],3:[function(require,module,exports){
 /**
  * Created by jens.heidl on 01.09.2016.
  */
@@ -131,11 +131,11 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
 
 require('babel-polyfill');
 
-var _SomeClass = require('./SomeClass.js');
+var _SomeClassEs = require('./SomeClass.es6.js');
 
-var _SomeClassChild = require('./SomeClassChild.js');
+var _SomeClassChildEs = require('./SomeClassChild.es6.js');
 
-var _SomeDocTest = require('./SomeDocTest.js');
+var _SomeDocTestEs = require('./SomeDocTest.es6.js');
 
 //From Lib
 //var $ = require('./../libs/jquery.min');
@@ -145,12 +145,12 @@ var _SomeDocTest = require('./SomeDocTest.js');
 
 
 var testSymbol = Symbol('test');
-var test = new _SomeClass.SomeClass({ name: 'hans' });
+var test = new _SomeClassEs.SomeClass({ name: 'hans' });
 console.log(test.name);
 
 console.log('------asd------------', testSymbol);
 
-var child = new _SomeClassChild.SomeClassChild({ name: 'little Jow' });
+var child = new _SomeClassChildEs.SomeClassChild({ name: 'little Jow' });
 console.log('child', child.name);
 
 //check Symbol plugin
@@ -174,7 +174,7 @@ console.log('typeof Symbol', typeof testSymbol === 'undefined' ? 'undefined' : _
 
 //});
 
-},{"./SomeClass.js":1,"./SomeClassChild.js":2,"./SomeDocTest.js":3,"babel-polyfill":5}],5:[function(require,module,exports){
+},{"./SomeClass.es6.js":1,"./SomeClassChild.es6.js":2,"./SomeDocTest.es6.js":3,"babel-polyfill":5}],5:[function(require,module,exports){
 (function (global){
 "use strict";
 

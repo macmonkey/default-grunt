@@ -4,9 +4,9 @@
 'use strict';
 import "babel-polyfill";
 
-import {SomeClass} from './SomeClass.js';
-import {SomeClassChild} from './SomeClassChild.js';
-import {Documented} from './SomeDocTest.js';
+import {SomeClass} from './SomeClass.es6.js';
+import {SomeClassChild} from './SomeClassChild.es6.js';
+import {Documented} from './SomeDocTest.es6.js';
 
 
 //From Lib
@@ -27,6 +27,7 @@ console.log('child', child.name);
 
 //check Symbol plugin
 console.log('typeof Symbol', typeof testSymbol);
+
 
 
 //$(function () {
