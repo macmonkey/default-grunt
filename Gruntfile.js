@@ -21,5 +21,6 @@ module.exports = function (grunt) {
     //grunt.registerTask('default', ['watch:scripts']);
     grunt.registerTask('default', ['projectDefault']);
     grunt.registerTask('testStack', ['browserify']);
+    grunt.registerTask('document', ['jsdoc']);
 
 };

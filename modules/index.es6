@@ -4,9 +4,11 @@
 'use strict';
 import "babel-polyfill";
 
-import {SomeClass} from './import.es6';
+import {SomeClass} from './SomeClass.es6';
 import {SomeClassChild} from './SomeClassChild.es6';
+import {Documented} from './SomeDocTest.js';
 
+/*** blaaa ***/
 
 //From Lib
 //var $ = require('./../libs/jquery.min');
