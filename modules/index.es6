@@ -19,11 +19,14 @@ var testSymbol = Symbol('test');
 var test = new SomeClass({name: 'hans'});
 console.log(test.name);
 
-debugger;
 console.log('------asd------------', testSymbol);
 
 var child = new SomeClassChild({name: 'little Jow'});
-console.log(child.name)
+console.log(child.name);
+
+debugger;
+//check Symbol plugin
+console.log('typeof Symbol', typeof testSymbol);
 
 //$(function () {
 //    console.log('onDocument Ready');
@@ -32,6 +35,7 @@ console.log(child.name)
 
 
 //var test = new SomeClass({name: 'hans'});
+
 //console.log(test.name);
 //
 //console.log('------------------');
