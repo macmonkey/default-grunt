@@ -18,7 +18,7 @@ module.exports = function (grunt) {
         }
     });
 
-    grunt.registerTask('default', ['babel']);
+    grunt.registerTask('default', ['watch:scripts']);
     grunt.registerTask('testStack', ['browserify']);
 
 };

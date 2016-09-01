@@ -1,10 +1,14 @@
 #Dummy Grunt Project
 
 #####Grunt Stack
+
+Project uses following grunt stack
+
  - load-grunt-configs
  - jit-grunt
  - browserify
- - babelify
+ - [babelify](https://github.com/babel/babelify)
+
 
 
 ####Help

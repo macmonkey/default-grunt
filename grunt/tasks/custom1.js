@@ -8,3 +8,4 @@ module.exports = function (grunt) {
         grunt.log.ok('custom2!');
     });
 };
+

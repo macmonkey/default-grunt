@@ -1,8 +1,7 @@
 module.exports = {
-    sass: {
-        files: 'sass/**/*.scss',
-        tasks: [
-            'timmy'
-        ]
+
+    scripts: {
+        files: ["./modules/**/*.es6"],
+        tasks: ["browserify"]
     }
 };

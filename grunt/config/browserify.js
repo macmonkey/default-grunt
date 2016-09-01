@@ -1,17 +1,23 @@
 module.exports = {
     dist: {
         options: {
+            browserifyOptions: {
+                //debug: true
+                extensions: ['es6']
+            },
             transform: [
-                [
-                    "babelify",
+                ["babelify",
                     {
-                        loose: "all"
+
+                        presets: ['es2015'],
+                        plugins: ["transform-es2015-typeof-symbol"]
                     }
                 ]
-            ]
+            ],
+            plugins: ["transform-es2015-typeof-symbol"]
         },
         files: {
-            "./dist/module.js": ["./script/index.es6"]
+            "./dist/module.js": ["./modules/index.es6"]
         }
     }
 };
