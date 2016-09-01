@@ -3,10 +3,11 @@
  */
 module.exports = {
     dist: {
-        src: ['modules/**/*'],
+        src: ['modules/**/*', 'README.md'],
         options: {
             configure: 'jsdocConfiguration.json'
             //destination: 'documentation'
         }
     }
 };
+

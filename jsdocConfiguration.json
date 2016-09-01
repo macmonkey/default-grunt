@@ -2,8 +2,10 @@
   "tags": {
     "allowUnknownTags": true
   },
-
-  "plugins": [],
+  "plugins": [
+    "plugins/markdown",
+    "plugins/summarize"
+  ],
   "templates": {
     "cleverLinks": false,
     "monospaceLinks": true,
@@ -18,7 +20,7 @@
   },
   "opts": {
     "encoding": "utf8",
-    "destination": "docs",
+    "destination": "doc",
     "recurse": true,
     "private": true
   }

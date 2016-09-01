@@ -1,6 +1,12 @@
 /**
  * Created by jens.heidl on 31.08.2016.
  */
+
+
+/***
+ * Main Entry Point
+ * @author Jens Heidl
+ */
 'use strict';
 import "babel-polyfill";
 
@@ -27,7 +33,6 @@ console.log('child', child.name);
 
 //check Symbol plugin
 console.log('typeof Symbol', typeof testSymbol);
-
 
 
 //$(function () {
