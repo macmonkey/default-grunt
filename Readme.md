@@ -4,10 +4,12 @@
 
 Project uses following grunt stack
 
- - load-grunt-configs
- - jit-grunt
- - browserify
+ - [oad-grunt-configs]/(https://github.com/creynders/load-grunt-configs)
+ - [it-grunt}(https://www.npmjs.com/package/jit-grunt)
+ - browserify(https://github.com/jmreidy/grunt-browserify)
  - [babelify](https://github.com/babel/babelify)
+ - [livereload](https://github.com/gruntjs/grunt-contrib-livereload)
+ - [connect](https://github.com/gruntjs/grunt-contrib-connect)
 
 
 
