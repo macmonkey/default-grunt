@@ -6,6 +6,11 @@
     "plugins/markdown",
     "plugins/summarize"
   ],
+  "source": {
+    "include": [
+      "modules/"
+    ]
+  },
   "templates": {
     "cleverLinks": false,
     "monospaceLinks": true,
@@ -22,6 +27,7 @@
     "encoding": "utf8",
     "destination": "doc",
     "recurse": true,
-    "private": true
+    "private": true,
+    "readme": "REAMDME.md"
   }
 }

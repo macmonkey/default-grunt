@@ -12,9 +12,6 @@ Project uses following grunt stack
  - [connect](https://github.com/gruntjs/grunt-contrib-connect)
  - [grunt-jsdoc](https://github.com/krampstudio/grunt-jsdoc)
 
-*@author
-@author
-@author
 
 ####Help
 - [ECMAScript 6 Help](https://www.sitepoint.com/?s=ecmascript+6)
