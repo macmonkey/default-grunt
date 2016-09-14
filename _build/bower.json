@@ -1,0 +1,17 @@
+{
+  "name": "default-grunt",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Jens Heidl"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

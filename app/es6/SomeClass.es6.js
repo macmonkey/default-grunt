@@ -17,7 +17,8 @@ const _name = Symbol('name');
 export class SomeClass {
     /**
      * Create a Class.
-     * @param {options.name} options  - Some options like name
+     * @param {Object} options  - Some options like name
+     * @param {String} options.name  - Some options like name
      */
     constructor(options) {
         console.log('some new class', options);

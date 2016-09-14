@@ -1,0 +1,8 @@
+{
+  "projectName": "default-grunt",
+  "rootPath": "./..",
+  "buildPath": "<%= rootPath %>/_build",
+  "appPath": "<%= rootPath %>/app",
+  "distPath": "<%= rootPath %>/dist",
+  "gruntFolder": "<%= buildPath %>/grunt"
+}

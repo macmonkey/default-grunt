@@ -3,7 +3,7 @@ module.exports = {
         livereload: true
     },
     scripts: {
-        files: ["./modules/**/*.es6.js"],
+        files: ["<%= appPath %>/es6/**/*.es6.js"],
         tasks: ["browserify"]
     }
 };
