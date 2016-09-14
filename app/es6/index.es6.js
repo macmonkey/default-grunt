@@ -29,6 +29,8 @@ alert('hossa');
 
 
 
+
+
 console.log('------asd------------', testSymbol);
 
 var child = new SomeClassChild({name: 'little Jow'});
