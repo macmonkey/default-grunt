@@ -3,4 +3,5 @@
  */
 module.exports = function (grunt) {
     grunt.registerTask('projectDefault', ['config', 'reload', 'connect', 'watch']);
+
 };

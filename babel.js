@@ -4,14 +4,14 @@
 module.exports = {
     options: {
         sourceMap: true,
-        presets: ['es2015']
+        presets: ['../es2015']
     },
     dist: {
         files: [
             {
                 expand: true,
-                src: ['script/**/*.es6'],
-                dest: 'dist',
+                src: ['./../app/**/*.es6'],
+                dest: './../app/js',
                 ext: '.js'
             }
         ]

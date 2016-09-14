@@ -8,7 +8,6 @@ module.exports = {
             transform: [
                 ["babelify",
                     {
-
                         presets: ['es2015']
                         //,
                         //plugins: ["transform-es2015-typeof-symbol"]
@@ -19,7 +18,7 @@ module.exports = {
             //plugins: ["transform-es2015-typeof-symbol"]
         },
         files: {
-            "./dist/module.js": ["./modules/index.es6.js"]
+            "./../app/js/index.js": ["./../app/**/index.es6.js"]
         }
     }
 };

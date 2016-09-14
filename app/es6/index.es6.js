@@ -25,6 +25,12 @@ import {Documented} from './SomeDocTest.es6.js';
 var testSymbol = Symbol('test');
 var test = new SomeClass({name: 'hans'});
 console.log(test.name);
+alert('hossa');
+
+
+
+
+
 
 console.log('------asd------------', testSymbol);
 
