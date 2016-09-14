@@ -29,9 +29,6 @@ alert('hossa');
 
 
 
-
-
-
 console.log('------asd------------', testSymbol);
 
 var child = new SomeClassChild({name: 'little Jow'});
@@ -44,6 +41,7 @@ console.log('typeof Symbol', typeof testSymbol);
 //$(function () {
 //    console.log('onDocument Ready');
 //
+
 //    debugger;
 
 
@@ -58,6 +56,7 @@ console.log('typeof Symbol', typeof testSymbol);
 
 
 //});
+
 
 
 
