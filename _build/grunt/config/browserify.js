@@ -8,9 +8,10 @@ module.exports = {
             transform: [
                 ["babelify",
                     {
-                        presets: ['es2015']
+                        presets: [
+                            './../../_build/node_modules/babel-preset-es2015'
+                        ]
                         //,
-                        //plugins: ["transform-es2015-typeof-symbol"]
                     }
                 ]
             ]
