@@ -22,7 +22,6 @@ Project uses following grunt stack
 
 
 ####Do do...
-- markdown support in readme missing for jsdoc
 - Uglify
 - Concat
 - injector
