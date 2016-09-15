@@ -1,6 +1,8 @@
 module.exports = {
     options: {
-        relative: false
+        relative: false,
+        ignorePath: './../app/',
+        addRootSlash: false
     },
     local_dependencies: {
         files: {
