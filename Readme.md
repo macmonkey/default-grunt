@@ -11,6 +11,8 @@ Project uses following grunt stack
  - [livereload](https://github.com/gruntjs/grunt-contrib-livereload)
  - [connect](https://github.com/gruntjs/grunt-contrib-connect)
  - [grunt-jsdoc](https://github.com/krampstudio/grunt-jsdoc)
+ - [grunt-injector} (https://github.com/klei/grunt-injector)
+ - [grunt-wiredep] (https://github.com/stephenplusplus/grunt-wiredep)
 
 
 ####Help
@@ -24,12 +26,10 @@ Project uses following grunt stack
 ####Do do...
 - Uglify
 - Concat
-- injector
 - webserver
 - yeomen templating
 - clean
 - build
-- folder structure
 
 
 
